@@ -3,7 +3,7 @@ body {
   overflow-x: hidden;
   background-image: url(https://i.pinimg.com/564x/df/1b/81/df1b8132194e6e568c1d9a95273a42dd.jpg);
   background-repeat: no-repeat;
-  background-size: 1640px;
+  background-size: 1630px;
 }
 
 .header {
@@ -26,26 +26,27 @@ body {
 
 .title {
   font-family: "Impact";
-  color: #ff289c;
-  font-size: 60px;
+  color: aliceblue;
+  font-size: 360%;
   padding-top: 1px;
   padding-left: 1px;
-  -webkit-text-stroke-color: #ff7cc2;
+  -webkit-text-stroke-color: #ff289c;
   -webkit-text-stroke-width: 0.01px;
   opacity: 0.8;
 }
 .title:hover {
-  color: aliceblue;
+  color: #ff7cc2;
   opacity: 0.9;
 }
 
 .menu {
   width: 100%;
   display: flex;
-  margin-left: 400px;
-  font-size: 22px;
+  margin-left: 24%;
+  margin-right: 8px;
+  font-size: 130%;
   text-align: center;
-  gap: 80px;
+  gap: 11%;
   color: #ff7cc2;
   -webkit-text-stroke-color: #e3dffd;
   -webkit-text-stroke-width: 0.4px;
@@ -77,7 +78,7 @@ body {
   background-color: transparent;
   text-align: center;
   font-weight: bold;
-  width: 630px;
+  width: 46%;
 }
 
 .chance {
