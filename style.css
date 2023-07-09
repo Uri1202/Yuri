@@ -3,42 +3,55 @@ body {
   overflow-x: hidden;
   background-image: url(https://i.pinimg.com/564x/df/1b/81/df1b8132194e6e568c1d9a95273a42dd.jpg);
   background-repeat: no-repeat;
-  background-size: 1640px;
+  background-size: 1630px;
 }
 
 .header {
-  text-shadow: 0px 0px 10px aliceblue;
   position: fixed;
   width: 100%;
   height: 100px;
   left: 0px;
   top: 0px;
+  margin-top: 3px;
   display: flex;
   align-items: center;
   font-weight: bold;
+  background-color: rgb(240, 248, 255, 0.3);
+  box-shadow: 0 0 80px #d9acf5;
 }
 .yuri {
   width: 80px;
   margin-left: 10px;
 }
+
 .title {
-  color: #9370db;
-  font-size: 60px;
-  width: 360px;
-  padding-top: 10px;
+  font-family: "Impact";
+  color: aliceblue;
+  font-size: 360%;
+  padding-top: 1px;
+  padding-left: 1px;
+  -webkit-text-stroke-color: #ff289c;
+  -webkit-text-stroke-width: 0.01px;
+  opacity: 0.8;
 }
 .title:hover {
-  color: aliceblue;
+  color: #ff7cc2;
+  opacity: 0.9;
 }
 
 .menu {
   width: 100%;
   display: flex;
-  margin-left: 400px;
-  font-size: 20px;
+  margin-left: 24%;
+  margin-right: 8px;
+  font-size: 130%;
   text-align: center;
-  gap: 80px;
-  color: #9370db;
+  gap: 11%;
+  color: #ff7cc2;
+  -webkit-text-stroke-color: #e3dffd;
+  -webkit-text-stroke-width: 0.4px;
+  border-top: dashed 1px aliceblue;
+  border-bottom: dashed 1px aliceblue;
 }
 
 .self {
@@ -65,7 +78,7 @@ body {
   background-color: transparent;
   text-align: center;
   font-weight: bold;
-  width: 630px;
+  width: 46%;
 }
 
 .chance {
@@ -75,8 +88,8 @@ body {
 }
 .future {
   font-size: 48px;
-  background-color: aliceblue;
-  color: #9370db;
+  background-color: rgb(240, 248, 255, 0.5);
+  color: #a084dc;
   height: 64px;
   opacity: 0.8;
 }
@@ -104,8 +117,9 @@ body {
   height: 100%;
   background-color: aliceblue;
   transform: translateX(-100%);
-  transition: transform 0.2s;
+  transition: transform 0.6s;
   z-index: -1;
+  opacity: 0.7;
 }
 .mission:hover::before {
   transform: translateX(0);
@@ -127,7 +141,7 @@ body {
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 0.8s;
+  transition: transform 1.2s;
   transform-style: preserve-3d;
 }
 
@@ -137,9 +151,9 @@ body {
   font-weight: bold;
   margin: 400px 220px 0px 220px;
   border-radius: 40px;
-  box-shadow: 2px 2px 6px black;
-  transition: transform 0.8s;
+  transition: transform 1.2s;
   color: #9370db;
+  border: solid 2px #9370db;
 }
 
 .pochacco {
@@ -179,29 +193,28 @@ body {
 }
 
 .body3 {
-  background-color: #ffffdd;
+  background-color: #e3dffd;
   font-size: 30px;
   font-weight: bold;
   transform: rotateY(180deg);
   border-radius: 40px;
-  box-shadow: 2px 2px 6px black;
   line-height: 16px;
   padding-left: 100px;
   font-style: italic;
   height: 440px;
   margin: -440px 220px 0px 220px;
   text-align: left;
-  color: #ff5192;
+  color: #9370db;
+  border: solid 2px #9370db;
 }
 
 .history {
   display: inline-block;
   font-size: 50px;
-
   text-shadow: 5px 2px #ffabce;
   border-bottom: double;
   height: 30px;
-  color: #ff367f;
+  color: #9370db;
 }
 .step {
   margin-top: -40px;
